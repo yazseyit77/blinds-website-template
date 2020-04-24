@@ -1,0 +1,264 @@
+I"<div id="carousel-slider">
+    <div class="slide">
+      <img style="width: 100%; height: 700px;" class="d-block w-100" src="../images/products/blinds/1.jpg" alt="First slide" />
+      <h2 id="carousel-text">Best European blinds</h2>
+    </div>
+    <div>
+      <img style="width: 100%; height: 700px;" class="d-block w-100" src="../images/products/blinds/3.jpg" alt="First slide" />
+    </div>
+    <div>
+      <img style="width: 100%; height: 700px;" class="d-block w-100" src="../images/products/blinds/6.jpg" alt="Third slide" />
+    </div>
+  </div>
+
+<div class="content" id="products">
+	<section>
+		<div class="container">
+			<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_products" class="btn"><strong>&#9998;</strong> Manage products</a></p>
+
+    		<h1 style="text-align: center; margin-bottom: 50px;">Products List</h1>
+    		<ul class="product-list">
+    			
+    			<li>
+    				<div class="styles">
+	
+		<div class="style" data-item-id="1">
+			<a href="/products/blinds1/">
+				<img src="/images/products/blinds/1.jpg" />
+			</a>
+		</div>
+	
+		<div class="style" data-item-id="2" style="display: none">
+			<a href="/products/blinds1/">
+				<img src="/images/products/blinds/2.jpg" />
+			</a>
+		</div>
+	
+		<div class="style" data-item-id="3" style="display: none">
+			<a href="/products/blinds1/">
+				<img src="/images/products/blinds/3.jpg" />
+			</a>
+		</div>
+	
+		<div class="style" data-item-id="4" style="display: none">
+			<a href="/products/blinds1/">
+				<img src="/images/products/blinds/4.jpg" />
+			</a>
+		</div>
+	
+
+	<div class="style-picker">
+		
+			<div style="background-color: #000000" data-item-id="1"></div>
+		
+			<div style="background-color: #39589e" data-item-id="2"></div>
+		
+			<div style="background-color: #9c5145" data-item-id="3"></div>
+		
+			<div style="background-color: #dfd3c2" data-item-id="4"></div>
+		
+	</div>
+</div>
+
+    				<div class="product-details">
+    					<h4><a href="/products/blinds1/">2" SelectWave Cordless Faux Wood Blinds</a></h4>
+    					<div class="product-description">
+    						<p>Wave goodbye to heavy faux wood window tre…</p>
+
+    					</div>
+    					<p>$9.00</p>
+    				</div>
+    			</li>
+    			
+    			<li>
+    				<div class="styles">
+	
+		<div class="style" data-item-id="1">
+			<a href="/products/blinds2/">
+				<img src="/images/products/blinds/4.jpg" />
+			</a>
+		</div>
+	
+		<div class="style" data-item-id="2" style="display: none">
+			<a href="/products/blinds2/">
+				<img src="/images/products/blinds/5.jpg" />
+			</a>
+		</div>
+	
+
+	<div class="style-picker">
+		
+			<div style="background-color: #000000" data-item-id="1"></div>
+		
+			<div style="background-color: #39589e" data-item-id="2"></div>
+		
+	</div>
+</div>
+
+    				<div class="product-details">
+    					<h4><a href="/products/blinds2/">2" Classic Cordless Faux Woods</a></h4>
+    					<div class="product-description">
+    						<p>Think the look of real-wood window blinds …</p>
+
+    					</div>
+    					<p>$9.00</p>
+    				</div>
+    			</li>
+    			
+    			<li>
+    				<div class="styles">
+	
+		<div class="style" data-item-id="1">
+			<a href="/products/blinds3/">
+				<img src="/images/products/blinds/3.jpg" />
+			</a>
+		</div>
+	
+		<div class="style" data-item-id="2" style="display: none">
+			<a href="/products/blinds3/">
+				<img src="/images/products/blinds/2.jpg" />
+			</a>
+		</div>
+	
+		<div class="style" data-item-id="3" style="display: none">
+			<a href="/products/blinds3/">
+				<img src="/images/products/blinds/6.jpg" />
+			</a>
+		</div>
+	
+
+	<div class="style-picker">
+		
+			<div style="background-color: #000000" data-item-id="1"></div>
+		
+			<div style="background-color: #39589e" data-item-id="2"></div>
+		
+			<div style="background-color: #9c5145" data-item-id="3"></div>
+		
+	</div>
+</div>
+
+    				<div class="product-details">
+    					<h4><a href="/products/blinds3/">1" Select Preferred Aluminum Blinds</a></h4>
+    					<div class="product-description">
+    						<p>Give your room a face lift with the modern…</p>
+
+    					</div>
+    					<p>$9.00</p>
+    				</div>
+    			</li>
+    			
+    			<li>
+    				<div class="styles">
+	
+		<div class="style" data-item-id="1">
+			<a href="/products/blinds4/">
+				<img src="/images/products/blinds/4.jpg" />
+			</a>
+		</div>
+	
+		<div class="style" data-item-id="2" style="display: none">
+			<a href="/products/blinds4/">
+				<img src="/images/products/blinds/7.jpg" />
+			</a>
+		</div>
+	
+
+	<div class="style-picker">
+		
+			<div style="background-color: #dfd3c2" data-item-id="1"></div>
+		
+			<div style="background-color: #67aa79" data-item-id="2"></div>
+		
+	</div>
+</div>
+
+    				<div class="product-details">
+    					<h4><a href="/products/blinds4/">2" Select American Hardwood Blinds</a></h4>
+    					<div class="product-description">
+    						<p>Everyone loves a house with great curb app…</p>
+
+    					</div>
+    					<p>$9.00</p>
+    				</div>
+    			</li>
+    			
+    			<li>
+    				<div class="styles">
+	
+		<div class="style" data-item-id="1">
+			<a href="/products/blinds5/">
+				<img src="/images/products/blinds/5.jpg" />
+			</a>
+		</div>
+	
+
+	<div class="style-picker">
+		
+			<div style="background-color: #67aa79" data-item-id="1"></div>
+		
+	</div>
+</div>
+
+    				<div class="product-details">
+    					<h4><a href="/products/blinds5/">Designer Vertical Blinds</a></h4>
+    					<div class="product-description">
+    						<p>Famously low maintenance, these verticals …</p>
+
+    					</div>
+    					<p>$9.00</p>
+    				</div>
+    			</li>
+    			
+    			<li>
+    				<div class="styles">
+	
+		<div class="style" data-item-id="1">
+			<a href="/products/blinds6/">
+				<img src="/images/products/blinds/6.jpg" />
+			</a>
+		</div>
+	
+		<div class="style" data-item-id="2" style="display: none">
+			<a href="/products/blinds6/">
+				<img src="/images/products/blinds/2.jpg" />
+			</a>
+		</div>
+	
+		<div class="style" data-item-id="3" style="display: none">
+			<a href="/products/blinds6/">
+				<img src="/images/products/blinds/4.jpg" />
+			</a>
+		</div>
+	
+
+	<div class="style-picker">
+		
+			<div style="background-color: #9c5145" data-item-id="1"></div>
+		
+			<div style="background-color: #dfd3c2" data-item-id="2"></div>
+		
+			<div style="background-color: #39589e" data-item-id="3"></div>
+		
+	</div>
+</div>
+
+    				<div class="product-details">
+    					<h4><a href="/products/blinds6/">Classic Fabric Vertical Blinds</a></h4>
+    					<div class="product-description">
+    						<p>Affordable style is what you get with our …</p>
+
+    					</div>
+    					<p>$9.00</p>
+    				</div>
+    			</li>
+    			
+    			<li></li>
+    			<li></li>
+    			<li></li>
+    		</ul>
+    	</div>
+    </section>
+
+</div>
+:ET

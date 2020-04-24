@@ -76,9 +76,7 @@
   margin: 0 auto;
   border-radius: 2px;
   padding: 20px 0 0;
-  background: #ddd
-    url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="44" height="12" viewBox="0 0 44 12"><circle cx="6" cy="6" r="4" fill="#eee" /><circle cx="22" cy="6" r="4" fill="#eee" /><circle cx="38" cy="6" r="4" fill="#eee" /></svg>')
-    4px 4px no-repeat;
+  background: #ddd url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="44" height="12" viewBox="0 0 44 12"><circle cx="6" cy="6" r="4" fill="#eee" /><circle cx="22" cy="6" r="4" fill="#eee" /><circle cx="38" cy="6" r="4" fill="#eee" /></svg>') 4px 4px no-repeat;
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
 }
 
@@ -86,7 +84,7 @@ section {
   padding: 50px 0;
 }
 
-section + section {
+section+section {
   padding-top: 0;
 }
 
@@ -181,4 +179,24 @@ blockquote .quote:after {
 #myBtn:hover {
   background-color: rgb(171, 171, 171);
   color: rgb(57, 57, 57);
+}
+
+.slide {
+  position: relative;
+}
+
+#carousel-slider {
+  margin-top: 80px;
+}
+
+#carousel-text {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: rgb(64, 255, 0);
+  font-size: 46px;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
 }
