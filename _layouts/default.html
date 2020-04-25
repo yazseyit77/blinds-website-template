@@ -43,9 +43,9 @@
 
 <body>
   <header>
-    <div class="container">
-      <div class="company-name" id="logo">
-        <a href="{{ site.baseurl }}/">{% include logo.html %}</a>
+    <div class="container" id="navbar-default">
+      <div class="company-name">
+        <a id="logo" href="{{ site.baseurl }}/">{% include logo.html %}</a>
       </div>
       {% include navigation.html %}
     </div>
@@ -53,16 +53,16 @@
 
   <div id="carousel-slider">
     <div class="slide">
-      <img style="width: 100%; height: 700px;" class="d-block w-100" src="../images/products/blinds/1.jpg"
+      <img style="width: 100%; height: 650px;" class="d-block w-100" src="../images/products/blinds/1.jpg"
         alt="First slide" />
       <h2 id="carousel-text">Best European blinds</h2>
     </div>
     <div>
-      <img style="width: 100%; height: 700px;" class="d-block w-100" src="../images/products/blinds/3.jpg"
+      <img style="width: 100%; height: 650px;" class="d-block w-100" src="../images/products/blinds/3.jpg"
         alt="First slide" />
     </div>
     <div>
-      <img style="width: 100%; height: 700px;" class="d-block w-100" src="../images/products/blinds/6.jpg"
+      <img style="width: 100%; height: 650px;" class="d-block w-100" src="../images/products/blinds/6.jpg"
         alt="Third slide" />
     </div>
   </div>
@@ -174,7 +174,7 @@
       slidesToScroll: 1,
       autoplay: true,
       fade: true,
-      autoplaySpeed: 3000,
+      autoplaySpeed: 2000,
       speed: 2000,
       mobileFirst: true,
     });

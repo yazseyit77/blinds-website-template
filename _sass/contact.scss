@@ -1,8 +1,8 @@
-.map {
-	height: 499px;
-	border: 1px solid #DDDDDD;
-	border-radius: 3px;
-}
+// .map {
+// 	height: 499px;
+// 	border: 1px solid #DDDDDD;
+// 	border-radius: 3px;
+// }
 
 .contact-box {
 	@extend %flexbox;
@@ -20,10 +20,12 @@
 		font-size: 1.8rem;
 	}
 
-	.contact-form, .contact-details  {
+	.contact-form,
+	.contact-details {
 		padding: 20px;
 		width: 100%;
 		box-sizing: border-box;
+
 		@media #{$desktop} {
 			-webkit-flex: 1;
 			flex: 1;
@@ -33,6 +35,7 @@
 
 	.contact-details {
 		font-size: .8em;
+
 		@media #{$desktop} {
 			order: 1;
 		}
@@ -49,4 +52,19 @@
 			display: block;
 		}
 	}
+}
+
+.map-responsive {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+
+.map-responsive iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }

@@ -1,6 +1,5 @@
 @media #{$below-mid-point} {
 	.nav-open {
-
 		nav {
 			border: 0;
 			z-index: 2;
@@ -12,20 +11,19 @@
 	}
 }
 
-
 header {
 	color: #fff;
 	padding: 20px 0 20px 0;
-	background-color: rgb(132, 129, 129);
 	// background: linear-gradient(135deg, $brand-color 0%, $brand-color-2 100%);
 	// background-image: url("https://images.unsplash.com/photo-1520350094754-f0fdcac35c1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
 	// background-repeat: no-repeat;
 	// background-size: cover;
 	// position: relative;
+	background-color: gray;
 	position: fixed;
 	width: 100%;
 	height: 40px;
-	opacity: 0.7;
+	opacity: 0.9;
 	z-index: 1;
 	top: 0;
 	left: 0;
@@ -44,28 +42,27 @@ header {
 			position: absolute;
 			border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 			transform: translate(-50%, 0);
-
 		}
 
 		&:before {
 			transform: skewX(-15deg);
-			box-shadow: 99px 29px 170px -24px rgba(0, 0, 0, .05);
+			box-shadow: 99px 29px 170px -24px rgba(0, 0, 0, 0.05);
 			top: -254px;
 			bottom: 50%;
-			left: 43%
+			left: 43%;
 		}
 
-		&:after {
-			box-shadow: inset 92px -41px 104px -28px rgba(0, 0, 0, .05);
-			transform: skewX(-12deg);
-			top: 47%;
-			left: 40%;
-			bottom: -121px;
-		}
+		// &:after {
+		// 	box-shadow: inset 92px -41px 104px -28px rgba(0, 0, 0, 0.05);
+		// 	transform: skewX(-12deg);
+		// 	top: 47%;
+		// 	left: 40%;
+		// 	bottom: -121px;
+		// }
 	}
 
 	a {
-		color: #fff;
+		color: rgb(0, 0, 0);
 		text-decoration: none;
 		z-index: 1;
 		position: relative;
@@ -91,7 +88,7 @@ nav {
 		margin: 0 3px;
 		padding: 20px 10px;
 		border-bottom: 1px solid rgba(255, 255, 255, 0);
-		color: rgba(255, 255, 255, .6);
+		color: rgba(255, 255, 255, 0.6);
 		transition: 200ms ease-in color;
 		display: none;
 
@@ -99,7 +96,6 @@ nav {
 			display: inline-block;
 			padding: 10px;
 		}
-
 
 		&.nav-toggle {
 			display: inline;
@@ -125,12 +121,12 @@ nav {
 		color: #fff;
 	}
 
-
 	a.cart {
 		line-height: 1;
 
 		i {
-			font-size: 22px;
+			color: rgb(43, 255, 0);
+			font-size: 30px;
 			line-height: 1;
 			display: inline-block;
 			vertical-align: middle;
@@ -142,7 +138,6 @@ nav {
 			vertical-align: middle;
 			position: relative;
 			top: 2px;
-
 		}
 	}
 
@@ -150,13 +145,12 @@ nav {
 		a.cart {
 			border-radius: 43px;
 			color: #fff;
-			border: 1px solid rgba(255, 255, 255, .4);
+			border: 1px solid rgba(255, 255, 255, 0.4);
 			position: absolute;
 			right: 20px;
 			top: -2px;
-			font-size: .8em;
-			transition: border .3s ease;
-
+			font-size: 0.8em;
+			transition: border 0.3s ease;
 
 			&:hover {
 				border-color: #fff;
@@ -167,5 +161,4 @@ nav {
 	a.active {
 		color: #fff;
 	}
-
 }
