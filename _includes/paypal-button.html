@@ -1,0 +1,37 @@
+{% assign colors = "" %}
+{% for style in include.product.styles %}
+{% assign colors = colors | append: '|' | append: style.name %}
+{% endfor %}
+{% assign colors = colors | remove_first: '|' %}
+
+<!-- Set up a container element for the button -->
+<div id="paypal-button-container"></div>
+
+<!-- Include the PayPal JavaScript SDK -->
+<script
+    src="https://www.paypal.com/sdk/js?client-id=ATO2Ib5eYcQPHlOQzkpii9j2ywP6gvOXhsAUJ__KFUv9GpuyN6aJcQFpycfJO3jepXolJCds3eD6VShi&currency=USD">
+</script>
+
+<script>
+    // Render the PayPal button into #paypal-button-container
+    paypal.Buttons({
+        // Set up the transaction
+        createOrder: function (data, actions) {
+            return actions.order.create({
+                purchase_units: [{
+                    amount: {
+                        value: '10.00'
+                    }
+                }]
+            });
+        },
+
+        // Finalize the transaction
+        onApprove: function (data, actions) {
+            return actions.order.capture().then(function (details) {
+                // Show a success message to the buyer
+                alert('Transaction completed by ' + details.payer.name.given_name + '!');
+            });
+        }
+    }).render('#paypal-button-container');
+</script>

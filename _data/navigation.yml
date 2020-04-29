@@ -6,6 +6,10 @@
   link: /products/
   new_window: false
   highlight: false
+- name: Blinds
+  link: /blinds/
+  new_window: false
+  highlight: false
 - name: About
   link: /about/
   new_window: false
