@@ -5,19 +5,25 @@ hero: Our story
 ---
 
 <div style="padding-top: 180px;">
-	<p class="editor-link" style="text-align: center; position: relative;
-    top: -185px;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff
-			members</a></p>
-	<ul class="staff">
-		{% for person in site.staff_members %}
+
+	<ul class="staff" style="margin-left: 470px;">
 		<li>
 			<div class="staff-image"
-				style="background-image: url({% include relative-src.html src=person.image_path %})">
+				style="background-image: url(https://getdrawings.com/free-icon/business-avatar-icon-58.png)">
 			</div>
-			<div class="name">{{ person.name }}</div>
+			<div class="name">Owner 1</div>
 		</li>
-		{% endfor %}
 	</ul>
+
+	<ul class="staff2" style="margin-right: 470px;">
+		<li>
+			<div class="staff-image"
+				style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFcWqpdnF9t-LTObPDxX-kCcJsVtSAX4-UFoehlaW3vLB-ivhqoA&s)">
+			</div>
+			<div class="name">Owner 2</div>
+		</li>
+	</ul>
+
 
 	<div class="thirds story-points">
 		<div>
@@ -26,12 +32,12 @@ hero: Our story
 				others? We
 				hope this passion show through in our work.</p>
 		</div>
-		<div>
+		<!-- <div>
 			<h3 class="editable">Animal</h3>
 			<p class="editable">It's easy to forget that we're all part of the animal kingdom. Fur is a brand that helps
 				you
 				get in touch with your inner animal.</p>
-		</div>
+		</div> -->
 		<div>
 			<h3 class="editable">Style</h3>
 			<p class="editable">We like to keep things plain and simple around here to help the animals speak for
