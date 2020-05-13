@@ -197,12 +197,12 @@ blockquote .quote:after {
 
 #carousel-text {
   position: absolute;
-  top: 70%;
+  top: 85%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  color: rgb(64, 255, 0);
-  font-size: 46px;
+  color: rgb(255, 255, 255);
+  font-size: 26px;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
 }
@@ -285,13 +285,40 @@ blockquote .quote:after {
   }
 
   #carousel-text {
-    font-size: medium;
+    font-size: small;
+  }
+}
+
+
+/* animated text */
+.myTransition {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 2s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+
+  100% {
+    background-position: 500%;
   }
 }
 
 
 
-/* second reviews slider below  */
+/* reviews slider below  */
 .testimonials {
   overflow: hidden;
   position: relative;
