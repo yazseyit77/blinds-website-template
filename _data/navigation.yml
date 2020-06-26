@@ -10,6 +10,10 @@
   link: /blinds/
   new_window: false
   highlight: false
+- name: Grids
+  link: /grids/
+  new_window: false
+  highlight: false
 - name: About
   link: /about/
   new_window: false

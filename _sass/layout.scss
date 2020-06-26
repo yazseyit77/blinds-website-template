@@ -70,14 +70,15 @@
   }
 }
 
-
 .screenshot {
   height: auto;
   display: block;
   margin: 0 auto;
   border-radius: 2px;
   padding: 20px 0 0;
-  background: #ddd url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="44" height="12" viewBox="0 0 44 12"><circle cx="6" cy="6" r="4" fill="#eee" /><circle cx="22" cy="6" r="4" fill="#eee" /><circle cx="38" cy="6" r="4" fill="#eee" /></svg>') 4px 4px no-repeat;
+  background: #ddd
+    url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="44" height="12" viewBox="0 0 44 12"><circle cx="6" cy="6" r="4" fill="#eee" /><circle cx="22" cy="6" r="4" fill="#eee" /><circle cx="38" cy="6" r="4" fill="#eee" /></svg>')
+    4px 4px no-repeat;
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
 }
 
@@ -85,7 +86,7 @@ section {
   padding: 50px 0;
 }
 
-section+section {
+section + section {
   padding-top: 0;
 }
 
@@ -289,21 +290,20 @@ blockquote .quote:after {
   }
 }
 
-
 /* animated text */
 .myTransition {
   position: relative;
   font-family: sans-serif;
   text-transform: uppercase;
   font-size: 2em;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   overflow: hidden;
-  background: linear-gradient(90deg, #000, #fff, #000);
+  background: linear-gradient(30deg, rgb(86, 30, 30), #fff, rgb(120, 31, 31));
   background-repeat: no-repeat;
   background-size: 80%;
-  animation: animate 2s linear infinite;
+  animation: animate 10s linear infinite;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
 }
 
 @keyframes animate {
@@ -312,11 +312,9 @@ blockquote .quote:after {
   }
 
   100% {
-    background-position: 500%;
+    background-position: 600%;
   }
 }
-
-
 
 /* reviews slider below  */
 .testimonials {
@@ -419,7 +417,6 @@ blockquote .quote:after {
     -webkit-transform: scale3d(1, 1, 1);
   }
 }
-
 
 @media screen and (max-width: 768px) {
   .testimonials {

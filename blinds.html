@@ -1,34 +1,66 @@
 ---
 layout: default2
 title: Our Story
-hero: Our story
+hero: Products
 ---
 
-<div class="content" id="products">
-    <section>
-        <div class="container">
-            <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_products"
-                    class="btn"><strong>&#9998;</strong> Manage products</a></p>
 
-            <h1 style="text-align: center; margin-bottom: 50px;">Blinds List</h1>
-            <ul class="product-list">
-                {% for product in site.products %}
-                <li id="each-product">
-                    {% include product-styles.html product=product %}
-                    <div class="product-details">
-                        <h4><a href="{{ product.url }}">{{ product.name }}</a></h4>
-                        <div class="product-description">
-                            {{ product.description_markdown | truncate: 45 | markdownify }}
-                        </div>
-                        <p>${{ product.price }}</p>
-                    </div>
-                </li>
-                {% endfor %}
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+
+<div class="mainDiv">
+    {% for product in site.products %}
+    <div class="box">
+        <div class="imgBx">
+            <img src="https://images.unsplash.com/photo-1534275493774-1bd30c5769aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
+                alt="" />
         </div>
-    </section>
-
+        <div class="content">
+            <h2>John Doe<br /><span>${{ product.price }}</span></h2>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="https://images.unsplash.com/photo-1579675102859-33dda38cc553?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
+                alt="" />
+        </div>
+        <div class="content">
+            <h2>John Doe<br /><span>Creative designer</span></h2>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="https://images.unsplash.com/photo-1547561090-e2c1104d363f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
+                alt="" />
+        </div>
+        <div class="content">
+            <h2>John Doe<br /><span>Creative designer</span></h2>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="https://images.unsplash.com/photo-1534275493774-1bd30c5769aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
+                alt="" />
+        </div>
+        <div class="content">
+            <h2>John Doe<br /><span>Creative designer</span></h2>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="https://images.unsplash.com/photo-1579675102859-33dda38cc553?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
+                alt="" />
+        </div>
+        <div class="content">
+            <h2>John Doe<br /><span>Creative designer</span></h2>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="https://images.unsplash.com/photo-1547561090-e2c1104d363f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
+                alt="" />
+        </div>
+        <div class="content">
+            <h2>John Doe<br /><span>Creative designer</span></h2>
+        </div>
+    </div>
+    {% endfor %}
 </div>

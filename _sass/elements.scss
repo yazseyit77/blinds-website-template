@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
 	margin: 0;
 	padding: 0;
 }
@@ -21,7 +22,8 @@ img {
 	max-width: 100%;
 }
 
-h1 strong, h2 strong {
+h1 strong,
+h2 strong {
 	font-weight: 700;
 }
 
@@ -50,7 +52,10 @@ h4 {
 	}
 }
 
-p, address, label, ul {
+p,
+address,
+label,
+ul {
 	font-size: 1.2rem;
 	color: #666;
 	margin-bottom: 20px;

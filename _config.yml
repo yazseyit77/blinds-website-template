@@ -2,24 +2,24 @@
 # Site
 
 title: MERAK
-url: "http://turquoise-rook.cloudvent.net/"
+url: ""
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
-snipcart_key: "NWNjOWZhYjctYmE1ZS00MDM3LThkNjUtZmE5M2NiMTU1NzAwNjM2MjYzNTE1MzM5ODg1ODkw"
+snipcart_key: "OTU5N2YzODgtNWJhOC00YWJlLTkxYjgtMzI0ZWY5MjUxN2ZlNjM3MjQ2NDE4MzY0NjkxODkz"
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /icon.png
+# logo: /icon.png
 description: Blinds store
 author:
   name: Blind Store
   email: blindspage@gmail.com
-  twitter: Blinds # twitter username without the @ symbol
+  twitter: "" # twitter username without the @ symbol
   phone: ""
 social:
   name: Blind Store
   links:
-    - https://github.com/CloudCannon/fur-jekyll-template
+    - ""
 
 # -----
 # Build
